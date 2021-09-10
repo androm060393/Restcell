@@ -1,0 +1,31 @@
+
+.servicios__secciones{
+    display: flex;
+	flex-direction: column;
+}
+.servicios__secciones--size{
+        width: $w-50;
+	    margin: auto;
+}
+.servicios--title3{
+    text-align: center;
+    color: white;
+}
+.destacados{
+	display: flex;
+    justify-content: space-around;
+}
+.destacados__caja--size{
+        display: flex;
+	    flex-wrap: wrap;
+	    width: $w-50;
+	    padding-top: 10px;
+        margin: auto;
+}
+.destacados--title3{
+    text-align: center;
+    color: white;
+}
+.nosotros{
+    background-color: $bg-grey;
+}

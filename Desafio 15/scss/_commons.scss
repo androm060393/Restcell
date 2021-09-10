@@ -1,0 +1,47 @@
+// Variable de sizes
+$w-25:25%;
+$w-50:50%;
+$w-75:75%;
+$w-100:100%;
+
+// Variable de Colores
+$bg-celeste: #e3f2fd;
+$bg-grey: rgba(95, 95, 95, 0.864);
+
+$lang:es;
+
+.fondo{
+    @if $lang==es{background-color: cadetblue;}
+    @else if $lang==en{background-color: gray;}
+    @else if $lang==fr{background-color: darkgray;}
+
+}
+
+@for $i from 1 to 6{
+    h#{$i}{
+        font-size: 5em /$i;
+    }
+}
+
+@each $icono in facebook, instagram, twitter{
+    .#{$icono}-footer{
+        background-image: url(../footer/#{$icono}.svg);
+        width: 40px;
+        height: 40px;
+        background-size: 100%;
+        list-style: none;
+    }
+}
+
+$colores: (
+    mision: rgb(0, 217, 255),
+    vision: rgba(21, 170, 180, 0.707),
+    valores: rgba(53, 162, 212, 0.72),
+);
+
+@each $name-color, $bg-color in $colores{
+    .bg-#{$name-color}{
+        background-color: $bg-color;
+        width: 100%;
+    }
+}
