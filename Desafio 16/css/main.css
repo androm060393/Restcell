@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap");
+.fondo {
+  background-color: cadetblue;
+}
+
+h1 {
+  font-size: 5em;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+h3 {
+  font-size: 1.66667em;
+}
+
+h4 {
+  font-size: 1.25em;
+}
+
+h5 {
+  font-size: 1em;
+}
+
+.facebook-footer {
+  background-image: url(../footer/facebook.svg);
+  width: 40px;
+  height: 40px;
+  background-size: 100%;
+  list-style: none;
+}
+
+.instagram-footer {
+  background-image: url(../footer/instagram.svg);
+  width: 40px;
+  height: 40px;
+  background-size: 100%;
+  list-style: none;
+}
+
+.twitter-footer {
+  background-image: url(../footer/twitter.svg);
+  width: 40px;
+  height: 40px;
+  background-size: 100%;
+  list-style: none;
+}
+
+.bg-mision {
+  background-color: #00d9ff;
+  width: 100%;
+}
+
+.bg-vision {
+  background-color: rgba(21, 170, 180, 0.707);
+  width: 100%;
+}
+
+.bg-valores {
+  background-color: rgba(53, 162, 212, 0.72);
+  width: 100%;
+}
+
+.servicios__secciones {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.servicios__secciones--size {
+  width: 50%;
+  margin: auto;
+}
+
+.servicios--title3 {
+  text-align: center;
+  color: white;
+}
+
+.destacados {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.destacados__caja--size {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 50%;
+  padding-top: 10px;
+  margin: auto;
+}
+
+.destacados--title3 {
+  text-align: center;
+  color: white;
+}
+
+.nosotros {
+  background-color: rgba(95, 95, 95, 0.864);
+}
+
+.etiquetas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer {
+  background-color: #e3f2fd;
+}
+
+footer img {
+  position: fixed;
+  right: 20px;
+  bottom: 30px;
+}
+/*# sourceMappingURL=main.css.map */
