@@ -1,0 +1,521 @@
+<!doctype html>
+
+  <html lang="en">
+
+  <head>
+
+    <!-- Required meta tags -->
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+    <!-- Bootstrap CSS -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>Servicio de Reparación y Mantenimiento de Celulares y Computadoras</title>
+
+    <meta name= "description" content="Nuestros técnicos especializados hacen reparaciones y mantenciones de equipos electrónicos dañados o defectuosos, ademas ofrecemos equipos y accesorios.">
+
+    <meta name="keywords" content="telefonia, accesorios, computacion, reparacion, telefonos, productos, servicio tecnico.">
+
+    <meta name="author" content="Andriw">
+
+  </head>
+
+  <body>
+
+    <!-- -->
+
+    <!-- INICIA NAV -->
+
+    <nav class="navbar navbar-expand-lg navbar-light" style= "background-color: #e3f2fd;">
+
+      <div class="container-fluid">
+
+        <a class="navbar-brand d-flex" href="index.html">
+
+          <img src="img/logo.jpg" alt="logo">
+
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+          <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+            <li class="nav-item">
+
+              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+
+            </li>
+
+            <li class="nav-item">
+
+              <a class="nav-link" href="nosotros.html">Nosotros</a>
+
+            </li>
+
+            <li class="nav-item dropdown">
+
+              <a class="nav-link dropdown-toggle" href="servicios.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+
+                Servicios
+
+              </a>
+
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                <li><a class="dropdown-item" href="telefonia.html">Telefonía</a></li>
+
+                <li><a class="dropdown-item" href="computadores.html">Computadores</a></li>
+
+              </ul>
+
+              <li class="nav-item">
+
+                <a class="nav-link" href="accesorios.html">
+
+                  Accesorios
+
+                </a>
+
+                <li class="nav-item">
+
+                  <a class="nav-link" href="contacto.html">Contacto</a>
+
+                </li>
+
+              </ul>
+
+              <form class="d-flex">
+
+                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+
+                <button class="btn btn-outline-primary" type="submit">Buscar</button>
+
+              </form>
+
+            </div>
+
+          </div>
+
+        </nav>
+
+      </nav>
+
+      <!-- CIERRA NAV -->
+
+
+
+      <!-- ABRE CARRUSEL -->
+
+
+
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+
+        <div class="carousel-indicators">
+
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+
+        </div>
+
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+
+            <img src="img/carrusel_telefonos.jpg" class="d-block w-100" alt="productos de celulares">
+
+          </div>
+
+          <div class="carousel-item">
+
+            <img src="img/carrusel_accesorios.jpg" class="d-block w-100" alt="accesorios de celulares">
+
+          </div>
+
+          <div class="carousel-item">
+
+            <img src="img/carrusel_pc.jpg" class="d-block w-100" alt="accesorios de computadoras">
+
+          </div>
+
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+
+          <span class="visually-hidden">Previous</span>
+
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+
+          <span class="visually-hidden">Next</span>
+
+        </button>
+
+      </div>
+
+
+
+      <!--CIERRA CARRUSEL -->
+
+
+
+      <!-- SECCION PRINCIPAL -->
+
+
+
+      <section class="fondo py-2">
+
+        <div class="container-fluid text-white">
+
+        <h1 class="text-center py-2"> Servicio Técnico de Celulares</h1>
+
+          <h2 class="text-center py-2" >Servicios Principales</h2>
+
+          <div class="row">
+
+            <article class="servicios__secciones col-lg-4">
+
+              <img src="img/section.jpg" class=" servicios__secciones--size rounded-3" alt="Telefonos">
+
+              <h3 class="servicios--title3">Telefonía</h3>
+
+            </article>
+
+            <article class="servicios__secciones col-lg-4">
+
+              <img src="img/section2.jpg" class=" servicios__secciones--size rounded-3" alt="Accesorios">
+
+              <h3 class="servicios--title3">Accesorios</h3>
+
+            </article>
+
+            <article class="servicios__secciones col-lg-4">
+
+              <img src="img/section3.jpg" class=" servicios__secciones--size rounded-3" alt="Computadoras">
+
+              <h3 class="servicios--title3">Computación</h3>
+
+            </article>
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+
+      <!-- SECCION PRINCIPAL -->
+
+
+
+      <!-- ABRE contenido -->
+
+
+
+        <div class="row">
+
+          <article class="col-lg-3 mt-lg-3 mb-sm-3">
+
+            <div class="card">
+
+              <img src="img/cargador1.jpg" class="card-img-top w-100" alt="cargador de celular">
+
+              <div class="card-body">
+
+                <h5>Samsung <span class="badge bg-primary">New</span></h5>
+
+                <p class="card-text">Cargador de carga rápida para Smartphone Negro.</p>
+
+                <a href="#" class="btn btn-secondary">Ver Producto</a>
+
+              </div>
+
+            </div>
+
+          </article>
+
+
+
+          <article class="col-lg-3 mt-lg-3 mb-sm-3" >
+
+            <div class="card">
+
+              <img src="img/cargador2.jpg" class="card-img-top w-100" alt="cargador de celular">
+
+              <div class="card-body">
+
+                <h5>Samsung <span class="badge bg-primary">New</span></h5>
+
+                <p class="card-text">Cargador de carga rápida para Smartphone Blanco.</p>
+
+                <a href="#" class="btn btn-secondary">Ver Producto</a>
+
+              </div>
+
+            </div>
+
+          </article>
+
+
+
+          <article class="col-lg-3 mt-lg-3 mb-sm-3">
+
+            <div class="card">
+
+              <img src="img/cargador3.jpg" class="card-img-top w-100" alt="cargador de celular">
+
+              <div class="card-body">
+
+                <h5 class="card-title">Samsung</h5>
+
+                <p class="card-text">Cargador de carga rápida para Smartphone Negro.</p>
+
+                <a href="#" class="btn btn-secondary">Ver Producto</a>
+
+              </div>
+
+            </div>
+
+          </article>
+
+
+
+          <article class="col-lg-3 mt-lg-3 mb-sm-3">
+
+            <div class="card">
+
+              <img src="img/cargador4.jpg" class="card-img-top w-100" alt="cargador de celular">
+
+              <div class="card-body">
+
+                <h5 class="card-title">Samsung</h5>
+
+                <p class="card-text">Cargador de carga rápida para Smartphone Blaco.</p>
+
+                <a href="#" class="btn btn-secondary">Ver Producto</a>
+
+              </div>
+
+            </div>
+
+          </article>
+
+
+
+          <article class="col-lg-3 mb-sm-3">
+
+            <div class="card">
+
+              <img src="img/cargador5.jpg" class="card-img-top w-100" alt="cargador de celular">
+
+              <div class="card-body">
+
+                <h5 class="card-title">Samsung</h5>
+
+                <p class="card-text">Cargador de carga rápida para Smartphone Blanco.</p>
+
+                <a href="#" class="btn btn-secondary">Ver Producto</a>
+
+              </div>
+
+            </div>
+
+          </article>
+
+
+
+          <article class="col-lg-3 mb-sm-3">
+
+            <div class="card">
+
+              <img src="img/cargador6.jpg" class="card-img-top w-100" alt="cargador de celular">
+
+              <div class="card-body">
+
+                <h5 class="card-title">Samsung</h5>
+
+                <p class="card-text">Cargador de carga rápida para Smartphone Blaco.</p>
+
+                <a href="#" class="btn btn-secondary">Ver Producto</a>
+
+              </div>
+
+            </div>
+
+          </article>
+
+
+
+          <article class="col-lg-3 mb-sm-3">
+
+            <div class="card">
+
+              <img src="img/producto7.jpg" class="card-img-top w-100" alt="cargador inalambrico de celular">
+
+              <div class="card-body">
+
+                <h5 class="card-title">Samsung</h5>
+
+                <p class="card-text">Cargador Inalambrico Negro para tu Smartphone.</p>
+
+                <a href="#" class="btn btn-secondary">Ver Producto</a>
+
+              </div>
+
+            </div>
+
+          </article>
+
+
+
+          <article class="col-lg-3 mb-sm-3">
+
+            <div class="card">
+
+              <img src="img/producto8.jpg" class="card-img-top w-100" alt="cargador inalambrico trio de celular">
+
+              <div class="card-body">
+
+                <h5 class="card-title">Samsung</h5>
+
+                <p class="card-text">Cargador Inalambrico Trio con extensión a terceros</p>
+
+                <a href="#" class="btn btn-secondary">Ver Producto</a>
+
+              </div>
+
+            </div>
+
+          </article>
+
+
+
+        </div>
+
+
+
+      <!-- CIERRE contenido -->
+
+
+
+
+
+
+
+      <!-- aside -->
+
+
+
+      <aside class="fondo py-4">
+
+        <div class="container-fluid">
+
+          <h3 class="destacados--title3">Destacados</h3>
+
+          <div class="row">
+
+            <article class="col-lg-4 col-sm-4">
+
+              <img src="img/cargador1.jpg" alt="cargador1" class="destacados__caja--size rounded-3">
+
+            </article>
+
+            <article class="col-lg-4 col-sm-4">
+
+              <img src="img/cargador5.jpg" alt="cargador5" class="destacados__caja--size rounded-3">
+
+            </article>
+
+            <article class="col-lg-4 col-sm-4">
+
+              <img src="img/cargador6.jpg" alt="cargador6" class="destacados__caja--size rounded-3">
+
+            </article>
+
+          </div>
+
+        </div>
+
+      </aside>
+
+
+
+      <!-- cierra aside -->
+
+
+
+<!-- abre footer -->
+
+
+
+<footer class="py-2 text-center">
+
+    <a href="#"></a>
+
+      <img src="footer/whatsapp.png" alt="whatsapp">
+
+      <div class="d-flex py-3 w-100">
+
+        <li class="facebook-footer"></li>
+
+        <li class="instagram-footer"></li>
+
+        <li class="twitter-footer"></li>
+
+      </div>
+
+      <h5>Av Irarrazaval 200, Ñuñoa, Santiago de Chile</h5>
+
+      <p>Estamos para ayudarte y resolver esos problemas que tienes con tu telefono y/o computadora</p>
+
+  </footer>
+
+
+
+<!-- cierra footer -->
+
+
+
+    
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+
+
+
+      <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+    <!--
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+  -->
+
+</body>
+
+</html>
